@@ -10,8 +10,6 @@ Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 
 # [Long Short-Term Memory (LSTM)](longShortTermMemory)
 ---
-- Deep Learning Framework
-- Variant of Deep Recurrent Neural Network (RNN)
-- Avoids Vanishing Gradient Problem
+- [Predicting Next Day's Market Price](longShortTermMemory/lstmStockPrices.ipynb)
 
 # ReLU

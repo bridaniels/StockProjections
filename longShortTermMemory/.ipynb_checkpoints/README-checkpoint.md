@@ -15,8 +15,11 @@
 ### Zoomed-In LSTM Model 
 ![ZoomedPredictedPrice](zoomIn/zoomed03_08.png "Zoomed-In Predicted Price on Validation Data")
 
-### Predicting Future Prices 4
-![PriceForMarch9](tomorrowPrice/tomP03_08.png "Predicted Price for March 9th")
+### Predicting Future Prices 
+![PredPriceForMarch9](tomorrowPrice/pred03_09.png "Predicted Price for March 9th")
+
+### Actual Future Price
+![ActualPriceforMarch9](tomorrowPrice/close03_09.png "Actual Close Price for March 9th")
 
 
 
