@@ -4,7 +4,7 @@
 # March 2022 IBM 
 ---
 ### Original Data
-![PricesTillMarch8](dailyClose/dClose03_08.png "Daily Close Prices through March 8th")
+![PricesTillMarch8](dailyClose/dclose03_08.png "Daily Close Prices through March 8th")
 
 ### Training vs. Validation Data
 ![TrainValidateMarch8](trainValidate/tv03_08.png "Training and Validation Data through March 8th")
@@ -13,7 +13,7 @@
 ![PredictedVsActualMarch8th](predictVsActual/pva03_08.png "Predicted VS. Actual Prices through March 8th")
 
 ### Zoomed-In LSTM Model 
-![ZoomedPredictedPrice](zoomedIn/zoomed03_08.png "Zoomed-In Predicted Price on Validation Data")
+![ZoomedPredictedPrice](zoomIn/zoomed03_08.png "Zoomed-In Predicted Price on Validation Data")
 
 ### Predicting Future Prices 4
 ![PriceForMarch9](tomorrowPrice/tomP03_08.png "Predicted Price for March 9th")
