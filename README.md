@@ -42,15 +42,15 @@ Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 - Model Evaluation: 
     - Predict on training data and plot predicted vs. actual data for validation dataset 
 ![PredictedVsActualMarch8th](longShortTermMemory/predictVsActual/pva03_08.png "Predicted VS. Actual Prices through March 8th")
--  Zoomed-In LSTM Model 
+    - Zoomed-In LSTM Model 
 ![ZoomedPredictedPrice](longShortTermMemory/zoomIn/zoomed03_08.png "Zoomed-In Predicted Price on Validation Data")
 
 
-#### Predicting Next Day's Close Prices
+#### Predicting Next Day's Close Price
 ![PredPriceForMarch9](longShortTermMemory/tomorrowPrice/pred03_09.png "Predicted Price for March 9th")
 
 ##### Actual Future Price
-![ActualPriceforMarch9](tomorrowPrice/close03_09.png "Actual Close Price for March 9th")
+![ActualPriceforMarch9](longShortTermMemory/tomorrowPrice/close03_09.png "Actual Close Price for March 9th")
 
 
 
