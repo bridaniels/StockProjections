@@ -5,11 +5,11 @@ Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 
 ---
 # [Long Short-Term Memory (LSTM)](longShortTermMemory)
+## [Predicting Next Day's Market Price](longShortTermMemory/lstmStockPrices.ipynb) 
 - Deep Learning Framework
 - Recurrent Neural Network
 - Supervised Machine Learning
     - use labeled datasets to train algorithms to classify data/predict outcomes 
-## [Predicting Next Day's Market Price](longShortTermMemory/lstmStockPrices.ipynb) 
 ---
 
 
