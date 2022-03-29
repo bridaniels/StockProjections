@@ -19,13 +19,16 @@ Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 
 #### Data Preparation: Training vs. Validation
 - generate training and validation data sets by normalizing via a Z-Score and splitting the data over a predetermined window_size 
-- training data: 
-- validation data:
-- z-score: 
+- training data: section of data to train LSTM problem on
+- validation data: section of separate data to test LSTM's accuracy 
+- z-score: measurement of data point's relationship to the mean -> normalizer 
 ![TrainValidateMarch8](longShortTermMemory/trainValidate/tv03_08.png "Training and Validation Data through March 8th")
 
 
 #### DataLoader
+- via PyTorch and requires Dataset object 
+- Automatic batching through parallelization of the data loading process, leveraging GPU during training. 
+- Boosts speed and saves memory in the program.
 
 #### Long Short-Term Memory (LSTM) deep learning framework: 
 - Input Modulation Gate = `linear_1`: maps input values into high dimensional feature space
@@ -47,9 +50,10 @@ Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 
 
 #### Predicting Next Day's Close Price
+- using Tensor via PyTorch for unseen data 
+- tensor: matrix of data -> turning unseen data into a matrix 
 ![PredPriceForMarch9](longShortTermMemory/tomorrowPrice/pred03_09.png "Predicted Price for March 9th")
-
-##### Actual Future Price
+- actual Future Price
 ![ActualPriceforMarch9](longShortTermMemory/tomorrowPrice/close03_09.png "Actual Close Price for March 9th")
 
 
