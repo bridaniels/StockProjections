@@ -53,7 +53,7 @@ Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 - using Tensor via PyTorch for unseen data 
 - tensor: matrix of data -> turning unseen data into a matrix 
 ![PredPriceForMarch9](longShortTermMemory/tomorrowPrice/pred03_09.png "Predicted Price for March 9th")
-- actual Future Price
+- actual future price: 
 ![ActualPriceforMarch9](longShortTermMemory/tomorrowPrice/close03_09.png "Actual Close Price for March 9th")
 
 
