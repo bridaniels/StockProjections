@@ -1,11 +1,24 @@
 # **Stock Projections**
-Creating Machine Learning Models to Predict Future Stock Prices 
+---
+Creating Machine Learning Models to Predict Future Stock Prices, Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 
-Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
+# Stock Prices: 
+---
+- Supply of Stock: shares outstanding, or total amount of shares held by investors issued by a company 
+- Value directly linked to market capitalization (total valuation of a company, or `(shares outstanding * current share price)`)
+- Markets run by humans, thus irrational emotion/bias also factors into price 
+- Market Capitalization of a publicly traded firm directly linked to stock price 
+- High amount of buyers compared to sellers -> price increase 
+- High amount of sellers and few buyers -> price decreases 
+- Primary Markets: buying at IPO
+- Secondary Markets: Investors selling stocks to one another (aka stock market), prices change rapidly 
+- Earnings Calls, Annual Meetings, M&A (suspected or finalized), Media Coverage, Price Trends/Patterns, and Inflation all major contributors 
+
+
 
 ---
-# [Long Short-Term Memory (LSTM)](longShortTermMemory)
-## [Predicting Next Day's Market Price](longShortTermMemory/lstmStockPrices.ipynb) 
+# [Predicting Next Day's Market Price](longShortTermMemory/lstmStockPrices.ipynb) 
+#### via: [Long Short-Term Memory (LSTM)](longShortTermMemory)
 - Deep Learning Framework
 - Recurrent Neural Network
 - Supervised Machine Learning
@@ -55,6 +68,12 @@ Using [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
 ![PredPriceForMarch9](longShortTermMemory/tomorrowPrice/pred03_09.png "Predicted Price for March 9th")
 - actual future price: 
 ![ActualPriceforMarch9](longShortTermMemory/tomorrowPrice/close03_09.png "Actual Close Price for March 9th")
+
+
+
+
+## References: 
+- [Tokenist: How are Stock Prices Determined](https://tokenist.com/investing/how-are-stock-prices-determined/)
 
 
 
